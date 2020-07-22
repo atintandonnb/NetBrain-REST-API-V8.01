@@ -150,7 +150,7 @@ repeat this section for each of the Front Servers.
 
 >   **API Source Type:** *“Solarwinds API Adaptor”*
 
->   **Endpoint:** *Solarwinds instance endpoint (ex “http://192.168.31.99”)*
+>   **Endpoint:** *Solarwinds instance endpoint (ex “http://192.168.31.99”). Please note that we have specify only the IP address along with http/https - If the UI is access via link http://192.168.31.99:8787/Orion/Login.aspx, we will strip off the port number and web resource directory and only specify  http://192.168.31.99*
 
 >   **Username:** *Solarwinds guest account’s username*
 
@@ -158,6 +158,8 @@ repeat this section for each of the Front Servers.
 
 >   **Front Server/Front Server Group:** Select FS/FSG which would have
 >   reachability to Solarwinds server
+
+
 
 1.  Click “Test” to initiate a connectivity test between the NetBrain front
     server and the Solarwinds instance configured. Pictured below is the result
